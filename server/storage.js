@@ -34,4 +34,4 @@ function parseResultToJson(rows) {
     return JSON.stringify(rows);
 }
 
-getCurrencies();
+module.exports = { getCurrencies }
